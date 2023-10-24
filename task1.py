@@ -20,3 +20,13 @@ Example:
 10
 ...
 """
+
+count = 2
+print("we are counting to 20")
+while count != 22:
+    print(count)
+    count = count + 2
+    if count == 22:
+        print("we reached 20")
+        break
+    

@@ -29,3 +29,19 @@ Access granted
 
 
 """
+
+
+
+
+correctUser = False
+
+while not correctUser:
+    user = input("username: ")
+    pas = input("password: ")
+    if user != "admin" and pas != "12345":
+        print("access denied")
+    else:
+        correctUser = True
+        print("Access Granted")
+        break
+         
